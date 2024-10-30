@@ -5,7 +5,7 @@
 %global pypi_name proto-plus
 
 Name:           python-%{pypi_name}
-Version:        1.24.0
+Version:        1.25.0
 Release:        1%{?dist}
 Summary:        Beautiful, Pythonic protocol buffers.
 
@@ -56,5 +56,8 @@ set -ex
 
 
 %changelog
+* Wed Oct 30 2024 Foreman Packaging Automation <packaging@theforeman.org> - 1.25.0-1
+- Update to 1.25.0
+
 * Mon Sep 23 2024 Odilon Sousa - 1.24.0-1
 - Initial package.
